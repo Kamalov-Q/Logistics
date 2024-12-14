@@ -1,7 +1,7 @@
 export function Company() {
     return (
         <div>
-            <section className="bg-gray-100 xl:container mx-auto w-full py-16 px-8 text-gray-800">
+            <section className="bg-gray-100 xl:container mx-auto w-full py-16 px-8 text-gray-800" id="haqida">
                 <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
                     <div className='order-2 md:order-1'>
                         <h2 className="text-4xl md:text-left text-center font-bold mb-6">About Our Logistics Services</h2>

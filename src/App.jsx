@@ -6,8 +6,7 @@ import Form from './components/Form/Form'
 import Quality from './components/Quality/Quality'
 import { Company } from './components/Company/Company'
 import Logistic from './components/Logistic/Logistic'
-import { Navbar } from './components/Navbar/Navbar';
-
+import { Navbar } from './components/Navbar/Navbar'
 const App = () => {
   return (
     <div>
