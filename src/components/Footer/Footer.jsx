@@ -57,7 +57,7 @@ const Footer = () => {
                         <div className='my-2 font-semibold text-xl'>
                             Biz bilan bog'laning
                         </div>
-                        <ul>
+                        <ul className='flex gap-2 flex-col'>
                             <li>
                                 <a href="/">
                                     <div className='flex gap-2 justify-center items-center'>
