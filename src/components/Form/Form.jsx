@@ -1,9 +1,7 @@
-import React from 'react'
-
 const Form = () => {
     return (
-            <div className="flex items-center py-5 justify-center bg-[url('/contact.jpg')] h-[90vh] bg-no-repeat bg-cover relative">
-                <div className="bg-white p-8 rounded-lg shadow-lg w-[450px] absolute right-[100px]">
+            <div className="flex xl:container mx-auto w-full items-center py-5 justify-center bg-[url('/contact.jpg')] h-[90vh] bg-no-repeat bg-cover relative">
+                <div className="bg-white p-8 rounded-lg shadow-lg w-[350px] md:w-[450px] static md:absolute md:right-[100px]">
                     <h2 className="text-2xl font-bold text-gray-900 mb-4">Остались вопросы?</h2>
                     <p className="text-gray-600 mb-6">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in

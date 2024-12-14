@@ -23,8 +23,8 @@ const Quality = () => {
     ];
 
     return (
-        <section className="py-12 h-[50vh] px-6 bg-white">
-            <div className="container mx-auto text-center">
+        <section className="xl:container mx-auto py-12 h-auto md:h-[50vh] px-6 bg-white">
+            <div className="text-center">
                 <h2 className="text-3xl font-bold text-gray-800 mb-8">Why choose us</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
                     {features.map((feature, index) => (
