@@ -6,10 +6,7 @@ import img from '/main.jpg';
 
 const About = () => {
     return (
-        <div className='h-screen container mx-auto w-full mt-10 flex flex-col gap-10 justify-center items-center'>
-            <div className="text-[40px] text-red-600 text-center">
-                About Our Company
-            </div>
+        <div className='h-screen bg-gray-100 container py-5 mx-auto w-full flex flex-col gap-10 justify-center items-center'>
             <Swiper
                 slidesPerView={3}
                 spaceBetween={30}
@@ -17,43 +14,79 @@ const About = () => {
                 loop={true}
                 autoplay={true}
                 modules={[Pagination, Autoplay]}
-                className="mySwiper h-auto p-5 max-w-[1300px]"
+                className="mySwiper h-auto p-5 my-5 max-w-[1300px]"
             >
-                <SwiperSlide className="h-auto p-3 rounded-lg border">
-                    <img src={img} alt="Slider images" className="rounded-lg" />
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt magnam saepe excepturi totam veritatis temporibus perspiciatis esse soluta, sed nemo id, consequuntur blanditiis obcaecati nesciunt illum amet ab. Alias, porro accusantium necessitatibus autem voluptate cum dolorem reprehenderit saepe error. Aperiam explicabo quisquam nihil praesentium dicta expedita ut magnam, quae tempora.</p>
+                <SwiperSlide className="h-auto rounded-lg shadow-xl border">
+                    <div className="bg-white p-6 rounded-lg shadow-lg">
+                        <img src="/main.jpg" alt="Truck Model 1" className="rounded-lg mb-4 object-cover w-full h-48" />
+                        <h3 className="text-2xl font-semibold mb-2">Heavy Duty Trucks</h3>
+                        <p className="text-lg leading-relaxed">
+                            Designed for long-haul routes, these trucks offer maximum load capacity and reliability in challenging conditions.
+                        </p>
+                        <div className="flex justify-center items-center my-2">
+                            <button className="px-10 py-3 rounded-md border-none bg-red-600 text-white">Aloqaga chiqing</button>
+                        </div>
+                    </div>
                 </SwiperSlide>
-                <SwiperSlide className="h-auto p-3 rounded-lg border">
-                    <img src={img} alt="Slider images" className="rounded-lg" />
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt magnam saepe excepturi totam veritatis temporibus perspiciatis esse soluta, sed nemo id, consequuntur blanditiis obcaecati nesciunt illum amet ab. Alias, porro accusantium necessitatibus autem voluptate cum dolorem reprehenderit saepe error. Aperiam explicabo quisquam nihil praesentium dicta expedita ut magnam, quae tempora.</p>
+                <SwiperSlide className="h-auto rounded-lg shadow-xl border">
+                    <div className="bg-white p-6 rounded-lg shadow-lg">
+                        <img src="/main.jpg" alt="Truck Model 1" className="rounded-lg mb-4 object-cover w-full h-48" />
+                        <h3 className="text-2xl font-semibold mb-2">Heavy Duty Trucks</h3>
+                        <p className="text-lg leading-relaxed">
+                            Designed for long-haul routes, these trucks offer maximum load capacity and reliability in challenging conditions.
+                        </p>
+                        <div className="flex justify-center items-center my-2">
+                            <button className="px-10 py-3 rounded-md border-none bg-red-600 text-white">Aloqaga chiqing</button>
+                        </div>
+                    </div>
                 </SwiperSlide>
-                <SwiperSlide className="h-auto p-3 rounded-lg border">
-                    <img src={img} alt="Slider images" className="rounded-lg" />
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt magnam saepe excepturi totam veritatis temporibus perspiciatis esse soluta, sed nemo id, consequuntur blanditiis obcaecati nesciunt illum amet ab. Alias, porro accusantium necessitatibus autem voluptate cum dolorem reprehenderit saepe error. Aperiam explicabo quisquam nihil praesentium dicta expedita ut magnam, quae tempora.</p>
+                <SwiperSlide className="h-auto rounded-lg shadow-xl border">
+                    <div className="bg-white p-6 rounded-lg shadow-lg">
+                        <img src="/main.jpg" alt="Truck Model 1" className="rounded-lg mb-4 object-cover w-full h-48" />
+                        <h3 className="text-2xl font-semibold mb-2">Heavy Duty Trucks</h3>
+                        <p className="text-lg leading-relaxed">
+                            Designed for long-haul routes, these trucks offer maximum load capacity and reliability in challenging conditions.
+                        </p>
+                        <div className="flex justify-center items-center my-2">
+                            <button className="px-10 py-3 rounded-md border-none bg-red-600 text-white">Aloqaga chiqing</button>
+                        </div>
+                    </div>
                 </SwiperSlide>
-                <SwiperSlide className="h-auto p-3 rounded-lg border">
-                    <img src={img} alt="Slider images" className="rounded-lg" />
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt magnam saepe excepturi totam veritatis temporibus perspiciatis esse soluta, sed nemo id, consequuntur blanditiis obcaecati nesciunt illum amet ab. Alias, porro accusantium necessitatibus autem voluptate cum dolorem reprehenderit saepe error. Aperiam explicabo quisquam nihil praesentium dicta expedita ut magnam, quae tempora.</p>
+                <SwiperSlide className="h-auto rounded-lg shadow-xl border">
+                    <div className="bg-white p-6 rounded-lg shadow-lg">
+                        <img src="/main.jpg" alt="Truck Model 1" className="rounded-lg mb-4 object-cover w-full h-48" />
+                        <h3 className="text-2xl font-semibold mb-2">Heavy Duty Trucks</h3>
+                        <p className="text-lg leading-relaxed">
+                            Designed for long-haul routes, these trucks offer maximum load capacity and reliability in challenging conditions.
+                        </p>
+                        <div className="flex justify-center items-center my-2">
+                            <button className="px-10 py-3 rounded-md border-none bg-red-600 text-white">Aloqaga chiqing</button>
+                        </div>
+                    </div>
                 </SwiperSlide>
-                <SwiperSlide className="h-auto p-3 rounded-lg border">
-                    <img src={img} alt="Slider images" className="rounded-lg" />
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt magnam saepe excepturi totam veritatis temporibus perspiciatis esse soluta, sed nemo id, consequuntur blanditiis obcaecati nesciunt illum amet ab. Alias, porro accusantium necessitatibus autem voluptate cum dolorem reprehenderit saepe error. Aperiam explicabo quisquam nihil praesentium dicta expedita ut magnam, quae tempora.</p>
+                <SwiperSlide className="h-auto rounded-lg shadow-xl border">
+                    <div className="bg-white p-6 rounded-lg shadow-lg">
+                        <img src="/main.jpg" alt="Truck Model 1" className="rounded-lg mb-4 object-cover w-full h-48" />
+                        <h3 className="text-2xl font-semibold mb-2">Heavy Duty Trucks</h3>
+                        <p className="text-lg leading-relaxed">
+                            Designed for long-haul routes, these trucks offer maximum load capacity and reliability in challenging conditions.
+                        </p>
+                        <div className="flex justify-center items-center my-2">
+                            <button className="px-10 py-3 rounded-md border-none bg-red-600 text-white">Aloqaga chiqing</button>
+                        </div>
+                    </div>
                 </SwiperSlide>
-                <SwiperSlide className="h-auto p-3 rounded-lg border">
-                    <img src={img} alt="Slider images" className="rounded-lg" />
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt magnam saepe excepturi totam veritatis temporibus perspiciatis esse soluta, sed nemo id, consequuntur blanditiis obcaecati nesciunt illum amet ab. Alias, porro accusantium necessitatibus autem voluptate cum dolorem reprehenderit saepe error. Aperiam explicabo quisquam nihil praesentium dicta expedita ut magnam, quae tempora.</p>
-                </SwiperSlide>
-                <SwiperSlide className="h-auto p-3 rounded-lg border">
-                    <img src={img} alt="Slider images" className="rounded-lg" />
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt magnam saepe excepturi totam veritatis temporibus perspiciatis esse soluta, sed nemo id, consequuntur blanditiis obcaecati nesciunt illum amet ab. Alias, porro accusantium necessitatibus autem voluptate cum dolorem reprehenderit saepe error. Aperiam explicabo quisquam nihil praesentium dicta expedita ut magnam, quae tempora.</p>
-                </SwiperSlide>
-                <SwiperSlide className="h-auto p-3 rounded-lg border">
-                    <img src={img} alt="Slider images" className="rounded-lg" />
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt magnam saepe excepturi totam veritatis temporibus perspiciatis esse soluta, sed nemo id, consequuntur blanditiis obcaecati nesciunt illum amet ab. Alias, porro accusantium necessitatibus autem voluptate cum dolorem reprehenderit saepe error. Aperiam explicabo quisquam nihil praesentium dicta expedita ut magnam, quae tempora.</p>
-                </SwiperSlide>
-                <SwiperSlide className="h-auto p-3 rounded-lg border">
-                    <img src={img} alt="Slider images" className="rounded-lg" />
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt magnam saepe excepturi totam veritatis temporibus perspiciatis esse soluta, sed nemo id, consequuntur blanditiis obcaecati nesciunt illum amet ab. Alias, porro accusantium necessitatibus autem voluptate cum dolorem reprehenderit saepe error. Aperiam explicabo quisquam nihil praesentium dicta expedita ut magnam, quae tempora.</p>
+                <SwiperSlide className="h-auto rounded-lg shadow-xl border">
+                    <div className="bg-white p-6 rounded-lg shadow-lg">
+                        <img src="/main.jpg" alt="Truck Model 1" className="rounded-lg mb-4 object-cover w-full h-48" />
+                        <h3 className="text-2xl font-semibold mb-2">Heavy Duty Trucks</h3>
+                        <p className="text-lg leading-relaxed">
+                            Designed for long-haul routes, these trucks offer maximum load capacity and reliability in challenging conditions.
+                        </p>
+                        <div className="flex justify-center items-center my-2">
+                            <button className="px-10 py-3 rounded-md border-none bg-red-600 text-white">Aloqaga chiqing</button>
+                        </div>
+                    </div>
                 </SwiperSlide>
             </Swiper>
         </div>
