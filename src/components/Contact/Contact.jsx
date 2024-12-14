@@ -33,7 +33,7 @@ const Contact = () => {
             <div style={{ position: "relative", overflow: "hidden" }}>
               <iframe
                 src="https://yandex.uz/map-widget/v1/?ll=65.795954%2C38.844514&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgk3NzEyNzIxNDUSKk_Ku3piZWtpc3RvbiwgUWFzaHFhZGFyeW8gdmlsb3lhdGksIFFhcnNoaSIKDXmUg0IVzV0bQg%2C%2C&z=12.41"
-                width="600"
+                width="500"
                 height="300"
                 frameBorder="0"
                 allowFullScreen

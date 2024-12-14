@@ -2,7 +2,7 @@ import React from 'react'
 
 const Logistic = () => {
     return (
-        <div className="container bg-gray-100 mx-auto py-10 px-5">
+        <div className="container bg-gray-100 w-full mx-auto py-10 px-5">
             <div className="text-center mb-10">
                 <h2 className="text-3xl font-bold text-gray-800 mb-4">Our Logistics Services</h2>
                 <p className="text-gray-600">What We Do</p>
